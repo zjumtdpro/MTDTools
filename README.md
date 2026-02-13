@@ -1,11 +1,12 @@
 # MTDTools
-# Introduction
+---
+#Introduction
 MTDTools is an integrated pipeline designed for reliable and comprehensive detection of tandem duplications (TDs) across multiple evolutionary scales. The framework consists of two complementary modules:
 
-# MTDJunction: 
+#MTDJunction: 
 A read-based method that identifies microhomology-mediated tandem duplications (MTDs) from junction signatures. This module is useful for detecting MTDs based solely on read data.
 
-# MTDInsertion: 
+#MTDInsertion: 
 A newly developed module that detects both MTDs and non-MTDs (NMTDs) based on full-length insertion sequences. Unlike MTDJunction, MTDInsertion supports both read-based and genome-based detection, enabling TD analysis across intra-population, intra-species, and species-level evolutionary scales.
 
 Together, MTDTools provides a robust framework for detecting and analyzing tandem duplications, from individual genomes to large-scale population and species comparisons.
@@ -21,10 +22,7 @@ MTDJunction: Identifies MTDs based on junction sequences and is applicable only 
 > The module **MTDJunction** is now archived under [/MTDJunction](./MTDJunction). For its usage, please see [/MTDJunction/README.md](./MTDJunction/README.md).
 ---
 
----
-For the usage of MTDInsertion, please refer to the instructions provided below:
-
-# Workflow Overview of MTDInsertion
+# For the usage of MTDInsertion, please refer to the instructions provided below:
 
 The pipeline supports the following analyses:
 
