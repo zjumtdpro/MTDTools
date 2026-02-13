@@ -1,15 +1,14 @@
-# MTDfinder-pro
-MTDfinder-Pro provides a unified pipeline to detect Microhomology-Mediated Tandem Duplications (MTDs) at three evolutionary levels: intra-population, intra-species, and species-level. 
+# MTDTools
 # Introduction
-MTDfinder-Pro is a computational framework designed to identify Microhomology-Mediated Tandem Duplications (MTDs) using Illumina short reads, PacBio HiFi reads, multi-genome alignments, and TRF-based reference genome analysis.
+MTDTools, which consists of two complementary modules (Figure S1): MTDJunction, a read-based method that identifies microhomology-mediated tandem duplications (MTDs) from junction signatures, and MTDInsertion, a newly developed pipeline that detects both MTDs and non-MTDs (NMTDs) based on full-length insertion sequences. Unlike previous approaches limited to junction-based or read-only analyses, MTDInsertion supports both read- and genome-based detection and enables TD analysis across intra-population, intra-species, and species-level evolutionary scales.
 
 The pipeline performs:
 Intra-population (read-based) detection of de novo MTDs
 Intra-species (comparative genomic) detection of fixed/polymorphic MTDs
-Species-level (reference genome) scanning of tandem duplications
+Species-level (reference genome) scanning of tandem duplications (2X)
 
 Algorithmic details correspond to the revised manuscript and workflow.
-<img width="865" height="479" alt="image" src="https://github.com/user-attachments/assets/c3c48904-eaf8-44bc-86a6-3772a5d90327" />
+<img width="973" height="660" alt="image" src="https://github.com/user-attachments/assets/c4258c8b-e87a-49d5-85a2-03b7e714931a" />
 
 ## Requirements
 | Tool                    | Version |
