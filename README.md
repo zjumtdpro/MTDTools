@@ -16,7 +16,9 @@ Together, MTDTools provides a robust framework for detecting and analyzing tande
 <img width="973" height="660" alt="image" src="https://github.com/user-attachments/assets/c4258c8b-e87a-49d5-85a2-03b7e714931a" />
 
 **Figure 1. Workflow of the MTDTools pipeline, which includes two tools: MTDJunction and MTDInsertion.**
+
 MTDJunction: Identifies MTDs based on junction sequences and is applicable only for read-based analysis. It detects MTD events by identifying microhomology arms, generating junction signatures (red lines) that span them, and realigning unmatched reads to confirm the presence of MTDs. 
+
 MTDInsertion: Identifies both MTDs and NMTDs based on full-length insertion sequences and can be used for three levels of analysis: intra-population (read-based), intra-species (genome-based), and species-level (genome-based). The workflow begins by identifying insertion mutations, followed by filtering for those that match the 1x→2x TD structure, and then detecting microhomology arms.
 
 
@@ -27,7 +29,7 @@ MTDInsertion: Identifies both MTDs and NMTDs based on full-length insertion sequ
 #  Note on MTDInsertion :
 > For the usage of **MTDInsertion**, please refer to the instructions provided below.
 
-The pipeline supports the following analyses:
+**The pipeline supports the following analyses:**
 
 Intra-population (read-based) detection of de novo MTDs
 
